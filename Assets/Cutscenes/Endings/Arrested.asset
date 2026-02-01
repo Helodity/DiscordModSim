@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e8c6e892dbffd409b84da05b95b666, type: 3}
+  m_Name: Arrested
+  m_EditorClassIdentifier: 
+  sceneOnFinish: MainMenu
+  BackgroundSprite: {fileID: 1349816719, guid: f0d12be8979008e41b902fe982dbafe0, type: 3}
+  characters:
+  - characterSprite: {fileID: 21300000, guid: 9126876da1b92ba41ba139816da9e1c7, type: 3}
+    spawnPos: {x: 281, y: -225}
+    size: {x: 500, y: 500}
+  dialogue:
+  - Text: Son,
+    SpeakerIdx: -1
+  - Text: the police told us what you've been doing
+    SpeakerIdx: -1
+  - Text: What?
+    SpeakerIdx: 0
+  - Text: You've been sexting minors
+    SpeakerIdx: -1
+  - Text: No, that's just my kitten!
+    SpeakerIdx: 0
+  - Text: Your kitten is 12 years old!
+    SpeakerIdx: -1
+  - Text: But that's against Discord's Terms of Service!
+    SpeakerIdx: 0
+  - Text: Get out of our sight.
+    SpeakerIdx: -1
+  - Text: You got the "Arrested" ending!
+    SpeakerIdx: -1
