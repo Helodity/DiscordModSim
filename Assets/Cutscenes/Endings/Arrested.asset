@@ -18,6 +18,9 @@ MonoBehaviour:
   - characterSprite: {fileID: 21300000, guid: 9126876da1b92ba41ba139816da9e1c7, type: 3}
     spawnPos: {x: 281, y: -225}
     size: {x: 500, y: 500}
+  - characterSprite: {fileID: 21300000, guid: 5bd060fea481b4841be931c3d2294e90, type: 3}
+    spawnPos: {x: -481, y: -225}
+    size: {x: 600, y: 650}
   dialogue:
   - Text: Son,
     SpeakerIdx: -1
